@@ -3,3 +3,9 @@ body
 {
   background: rgb(192, 194, 197);
 }
+.container {
+  margin: 0 auto;
+  padding: 0;
+  border: 1px solid #858383;
+  border-radius: 15px 15px 0 0;
+}

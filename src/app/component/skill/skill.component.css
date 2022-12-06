@@ -1,0 +1,9 @@
+.progress{
+  margin:.5rem;
+}
+.container {
+  margin: 0 auto;
+  padding: 0;
+  border: 1px solid #858383;
+  border-radius: 15px 15px 0 0;
+}
