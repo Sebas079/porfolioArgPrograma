@@ -1,0 +1,57 @@
+.container {
+  margin: 0 auto;
+  padding: 0;
+  border: 1px solid #858383;
+  border-radius: 0 0 15px 15px;
+}
+
+.img-profile {
+  position: relative;
+  top: -12vh;
+  left:auto;
+  width: 21vh;
+  height: auto;
+  border-radius: 100%;
+  border: 2px solid rgb(0, 85, 255);
+}
+
+.btn {
+  border-radius: 10px;
+  margin: 1rem;
+
+}
+
+.btn-titulo {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.btn-edit-img {
+  background: rgb(202, 200, 200);
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 4vh;
+  width: 4vh;
+  border-radius: 100%;
+  float: right;
+  margin: 1rem
+}
+
+.menu-bar {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  flex-direction: row;
+  align-content: center;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+.descripcion {
+  width: 100%;
+}

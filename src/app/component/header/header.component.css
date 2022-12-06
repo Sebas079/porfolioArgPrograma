@@ -1,0 +1,59 @@
+app-header {
+  width: 100%;
+  padding: 1rem;
+  margin:0 auto;
+}
+.container{
+  margin: 0 auto;
+  padding :0;
+  border: 1px solid #858383;
+  border-radius:15px 15px 0 0;
+}
+.logoArgProg{
+  width: 18vh;
+}
+.btn{
+  margin:1rem;
+}
+
+.bg-image {
+  height: 35vh;
+  background: url("../../../assets/images/istockphoto-1140180560-612x612.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:0 auto;
+
+}
+.btn-edit-img {
+  background: rgb(202, 200, 200);
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 4vh;
+  width: 4vh;
+  border-radius: 100%;
+  float: right;
+  margin: 1rem
+}
+
+
+
+ul{
+  list-style:none;
+}
+.link-a, .link-b{
+  height: 5vw;
+  width: 5vw;
+}
+.link-a{
+  background:url("../../../assets/images/linkedin.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.link-b {
+  background: url("../../../assets/images/7857148_github_programming_code_hub_git_icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
