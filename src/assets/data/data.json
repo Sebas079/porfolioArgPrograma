@@ -1,0 +1,48 @@
+{
+
+  "name": "Lopez Lorenzo Sebastian",
+  "imgProfile":"https://res.cloudinary.com/dtlvunuzt/image/upload/v1670452646/perfilSebas2_nbskai.jpg",
+  "backImage": "https://res.cloudinary.com/dtlvunuzt/image/upload/v1670426643/istockphoto-1140180560-612x612_nhmptd.jpg",
+  "description":"Programador, JAVASCRIPT, HTML, CSS, JAVA, MYSQL, ORACLE CLOUD,MySQL",
+  "country": "Argentina",
+  "contact": "sebas.tmk@gmail.com",
+
+  "experience": [
+    {
+           "title":"Papel Automatico De Argentina",
+           "position": "Ejecutivo de cuentas coorporativas",
+           "description":"Desarrollar en incrementar la cartera de clientes , aportando soluciones destinadas a resolver los problemas de consumo y servicio relacionados con la higiene del personal tanto de empresas, comercios, industrias. Implementar un sistema de trabajo por el cual el cliente tiene control del consumo relacionado con su personal , así de esta manera contar con un detalle de consumo acorde al volumen de personal existente optimizando el servicio tanto de entregas como de consumo logrando un mejor servicio y atención por parte de la empresa",
+           "start":"2009",
+           "end":"a la actualidad"
+    }
+
+   ],
+   "education":[{
+    "img":"https://res.cloudinary.com/dtlvunuzt/image/upload/v1670595954/Logo_Argentina_Programa_asz8q5.jpg",
+    "title":"FullStak dev",
+    "school": "Argentina programa",
+    "description":"Curso Full Stak junior, deasrrollado por el ministerio de Economia y el INTI.",
+    "start": "Agosto 2022",
+    "end": "En curso"
+   },{
+    "img":"https://res.cloudinary.com/dtlvunuzt/image/upload/v1670595954/Logo_Argentina_Programa_asz8q5.jpg",
+    "title":"FullStak dev",
+    "school": "Argentina programa",
+    "description":"Curso Full Stak junior, deasrrollado por el ministerio de Economia y el INTI.",
+    "start": "Agosto 2022",
+    "end": "En curso"
+   },{
+    "img":"https://res.cloudinary.com/dtlvunuzt/image/upload/v1670595954/Logo_Argentina_Programa_asz8q5.jpg",
+    "title":"FullStak dev",
+    "school": "Argentina programa",
+    "description":"Curso Full Stak junior, deasrrollado por el ministerio de Economia y el INTI.",
+    "start": "Agosto 2022",
+    "end": "En curso"
+   }
+ 
+
+   ]
+
+
+
+}

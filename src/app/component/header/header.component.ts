@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { JobProfileService } from 'src/app/services/job-profile.service';
 
 @Component({
   selector: 'app-header',
@@ -6,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-
-  constructor() { }
+myProfile: any;
+  constructor(private jobProfile : JobProfileService) { }
 
   ngOnInit(): void {
+    this.jobProfile.getData().subscribe(data =>{
+
+     this.myProfile = data;
+    })
+
   }
 
 }

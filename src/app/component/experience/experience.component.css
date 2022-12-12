@@ -4,6 +4,14 @@
   border: 1px solid #858383;
   border-radius: 15px;
 }
+.headexperience{
+  height: 15vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
 .btn-edit-img {
   background: rgb(202, 200, 200);
   display: flex;

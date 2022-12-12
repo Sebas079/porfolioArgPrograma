@@ -5,6 +5,25 @@
   border-radius: 15px;
 }
 
+.headeducacion {
+  height: 15vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+.card{
+  margin: 0.5rem;
+}
+
 .btn-edit-img {
   background: rgb(202, 200, 200);
   display: flex;

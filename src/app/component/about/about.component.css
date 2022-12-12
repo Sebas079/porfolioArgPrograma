@@ -6,10 +6,10 @@
 }
 
 .img-profile {
-  position: relative;
-  top: -12vh;
-  left:auto;
-  width: 21vh;
+  position: absolute;
+  top: 55vh;
+  right: auto;
+  width: 18vh;
   height: auto;
   border-radius: 100%;
   border: 2px solid rgb(0, 85, 255);
@@ -28,7 +28,8 @@
   flex-wrap: wrap;
 }
 
-.btn-edit-img {
+.btn-edit{
+ float:right;
   background: rgb(202, 200, 200);
   display: flex;
   flex-wrap: nowrap;
@@ -38,7 +39,7 @@
   height: 4vh;
   width: 4vh;
   border-radius: 100%;
-  float: right;
+
   margin: 1rem
 }
 

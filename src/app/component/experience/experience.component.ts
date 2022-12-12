@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { JobProfileService } from 'src/app/services/job-profile.service';
+
 
 @Component({
   selector: 'app-experience',
@@ -6,10 +8,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./experience.component.css']
 })
 export class ExperienceComponent implements OnInit {
-
-  constructor() { }
+  expList:any;
+  constructor(private jobProfile :JobProfileService ) { }
 
   ngOnInit(): void {
+        this.jobProfile.getData().subscribe(data =>{
+        this.expList = data.experience;
+        console.log(this.expList)
+
+    })
   }
 
 }

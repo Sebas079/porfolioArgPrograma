@@ -1,12 +1,12 @@
 <div class="container container-fluid">
 
 <div class="menu-bar">
-<img src="./../../../assets/images/perfilSebas2.jpg" alt="" class="img-profile">
+<img [src]="myProfile.imgProfile" alt="" class="img-profile">
 
 
 
      <div class="">
-      <div class="btn-edit-img">
+      <div class="btn-edit">
         <a href="#">
 
           <i class="fa fa-pen"></i>
@@ -15,15 +15,15 @@
       </div>
 <div class="btn-titulo ">
 
-      <h1>Sebastian Lopez Lorenzo</h1>
+      <h1>{{myProfile.name}}</h1>
 
 
 
       <p class="descripcion">
-        Programador, JAVASCRIPT, HTML, CSS, JAVA, MYSQL, ORACLE CLOUD,MySQL
+        {{myProfile.description}}
       </p>
       <p class="contacto">
-        Argentina.<a href="#">Informacion de contacto</a>
+        {{myProfile.country}}.<a [href]="myProfile.contact">Informacion de contacto</a>
       </p>
 
       <button type="button" class="btn btn-primary">tengo interes en...</button>
