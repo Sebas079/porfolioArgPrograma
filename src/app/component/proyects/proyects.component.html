@@ -1,25 +1,46 @@
 <div class="container container-fluid">
   <div class="card">
     <div class="card-body">
-      <div class="btn-edit-img">
-        <a href="#">
-          <i class="fa fa-pen"></i>
-        </a>
-      </div>
-      <div class="btn-edit-img">
-        <a href="#">
-          <i class="fa duotone fa-plus"></i>
-        </a>
+      <div class="headerComponent">
+        <h2>Proyects</h2>
+        <div class="buttons">
+          <div class="btn-edit-img">
+            <a href="#">
+              <i class="fa fa-pen"></i>
+            </a>
+          </div>
+          <div class="btn-edit-img">
+            <a href="#">
+              <i class="fa duotone fa-plus"></i>
+            </a>
+          </div>
+        </div>
+
       </div>
 
-      <h2>Proyectos</h2>
-      <div class="card" style="width: 18rem;">
-        <img src="../../../assets/images/aluraStore.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">E-comerce realizado 100% HTML Y CSS
-          </p>
+
+
+
+      <div class="container">
+        <div class="card proyectCard" style="width: 18rem;" *ngFor="let proyect of proyectsList">
+
+
+          <img [src]="proyect.img" class="card-img-top" alt="...">
+          <div class="card-body ">
+            
+            <span class="card-text">{{proyect.description}}
+            </span>
+           
+
+
+          </div>
+
         </div>
       </div>
+
     </div>
-    <img href="../../../assets/data/data.json"/> </div>
+  </div>
 </div>
+
+    
+   

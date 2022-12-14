@@ -21,8 +21,9 @@ import { HttpClientModule} from "@angular/common/http";
     EducationComponent,
     SkillComponent,
     ProyectsComponent,
-    
-    
+
+
+
 
   ],
   imports: [

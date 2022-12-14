@@ -4,6 +4,12 @@
   border: 1px solid #858383;
   border-radius: 15px;
 }
+.container{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
 
 .btn-edit-img {
   background: rgb(202, 200, 200);
@@ -17,4 +23,8 @@
   border-radius: 100%;
   float: right;
   margin: .5rem
+}
+.proyectCard{
+  border: 1px solid black;
+  margin:0.5rem
 }

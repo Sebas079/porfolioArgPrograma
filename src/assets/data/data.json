@@ -39,9 +39,59 @@
     "start": "Agosto 2022",
     "end": "En curso"
    }
- 
 
-   ]
+
+   ],
+   "skills":[{
+    "skill": "HTML",
+    "porcentaje":"100%"
+   },
+   {
+    "skill": "CSS",
+    "porcentaje": "75%"
+   },
+   {
+    "skill": "JACASCRIPTS",
+    "porcentaje": "50%"
+   },{
+    "skill": "BOOSTRAP",
+    "porcentaje":"50%"
+   },
+   {
+    "skill": "JAVA",
+    "porcentaje": "25%"
+   },
+   {
+    "skill": "MYSQL",
+    "porcentaje": "60%"
+   },
+   {
+    "skill": "TRABAJO EN EQUIPO",
+    "porcentaje": "100%"
+   },
+   {
+    "skill": "iNGLES",
+    "porcentaje": "50%"
+   },{
+    "skill": "OFFICE",
+    "porcentaje": "60%"
+   },
+   {
+    "skill": "ORACLE CLOUD",
+    "porcentaje": "25%"
+   }
+  ],
+  "proyects":[{
+    "img":"https://res.cloudinary.com/dtlvunuzt/image/upload/v1670942912/barberiaAlura_egoozw.png",
+    "description":"Pagina realizada en html5 y css puro, desafio bootcamp Oracle-One by Alura latam"
+  },
+{
+    "img":"https://res.cloudinary.com/dtlvunuzt/image/upload/v1670942896/2022-03-01_3_yyujqv.png",
+    "description":"Encriptador de mensajes realizacon con HTML, CSS Y JAVASCRIPT, desafio bootcamp Oracle-One by Alura latam "
+  },{
+    "img":"https://res.cloudinary.com/dtlvunuzt/image/upload/v1670942878/2022-03-02_5_sr9fm7.png",
+    "description":"Juego Ahorcado, relizado con HTML, CSS Y JAVASCRIPT, desafio bootcamp Oracle-One by Alura latam"
+  }]
 
 
 

@@ -9,3 +9,32 @@ body
   border: 1px solid #858383;
   border-radius: 15px 15px 0 0;
 }
+.container {
+  margin: 1rem auto;
+  padding: 0;
+  border: 1px solid #858383;
+  border-radius: 15px;
+}
+
+.headerComponent {
+  height: 15vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.btn-edit-img {
+  background: rgb(202, 200, 200);
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 4vh;
+  width: 4vh;
+  border-radius: 100%;
+  float: right;
+  margin: .5rem
+}
